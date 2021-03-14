@@ -1,0 +1,55 @@
+$ git commit -m "helel yahj, adsede coiujtn !"
+[pouri dc973ff] helel yahj, adsede coiujtn !
+ 1 file changed, 23 insertions(+), 1 deletion(-)
+
+mathias777@DESKTOP-7LBTGE9 MINGW64 ~/Documents/wtf (pouri)
+$ git push origin pouri
+Enumerating objects: 94, done.
+Counting objects: 100% (94/94), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (92/92), done.
+Writing objects: 100% (94/94), 8.64 MiB | 709.00 KiB/s, done.
+Total 94 (delta 12), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (12/12), done.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/mathiassantourian/wtfisthis.git
+remote:
+remote: Create a pull request for 'pouri' on GitHub by visiting:
+remote:      https://github.com/mathiassantourian/wtfisthis/pull/new/pouri
+remote:
+To https://github.com/mathiassantourian/reimagined-octo-doodle.git
+ * [new branch]      pouri -> pouri
+
+mathias777@DESKTOP-7LBTGE9 MINGW64 ~/Documents/wtf (pouri)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+mathias777@DESKTOP-7LBTGE9 MINGW64 ~/Documents/wtf (master)
+$ git pull origin
+You asked to pull from the remote 'origin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+
+mathias777@DESKTOP-7LBTGE9 MINGW64 ~/Documents/wtf (master)
+$ git pull origin master
+From https://github.com/mathiassantourian/reimagined-octo-doodle
+ * branch            master     -> FETCH_HEAD
+Updating 73b22a7..3f973e6
+Fast-forward
+ CDVEIRFICTION.html | 31 ++++++++++++++++++++++++++++++-
+ README.md          |  3 +++
+ restul.html        |  9 ++++++++-
+ 3 files changed, 41 insertions(+), 2 deletions(-)
+ create mode 100644 README.md
+
+mathias777@DESKTOP-7LBTGE9 MINGW64 ~/Documents/wtf (master)
+$
